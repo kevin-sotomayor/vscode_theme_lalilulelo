@@ -1,0 +1,21 @@
+{
+  "name": "vscode_theme_lalilulelo",
+  "displayName": "La-li-lu-le-lo theme",
+  "description": "My personal favourite theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "La-li-lu-le-lo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lalilulelo_vscode_theme.json"
+      }
+    ]
+  }
+}
