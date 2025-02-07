@@ -1,0 +1,6 @@
+title, sidebar background : 000016
+sidebar title background: 1c003d
+background: 500073
+button background: 330041
+selection background color: 00354a
+widget, input background: 808080
