@@ -1,7 +1,7 @@
 {
   "name": "vscode_theme_lalilulelo",
-  "displayName": "La-li-lu-le-lo theme",
-  "description": "My personal favourite theme",
+  "displayName": "La-li-lu-le-lo's theme",
+  "description": "My personal VSCode theme optimized for maximum readability.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.97.0"
