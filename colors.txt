@@ -4,3 +4,4 @@ background: 500073
 button background: 330041
 selection background color: 00354a
 widget, input background: 808080
+hover background : 3e3e3e

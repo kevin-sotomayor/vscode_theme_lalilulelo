@@ -11,7 +11,7 @@
         "list.dropBackground": "#FFFFFF",
         "list.highlightForeground": "#00354a",
         "button.background": "#330041",
-        "editor.background": "#000000",
+        "editor.background": "#101010",
         "editor.foreground": "#FFFFFF",
         "selection.background": "#00354a",
         "editor.selectionHighlightBackground": "#00354a",
@@ -59,12 +59,12 @@
         "input.background": "#3e3e3e",
         "inputOption.activeBorder": "#FFFFFF",
         "focusBorder": "#FFFFFF",
-        "editorWidget.background": "#808080",
+        "editorWidget.background": "#330041",
         "debugToolBar.background": "#FFFFFF",
         "diffEditor.insertedTextBackground": "#FFFFFF",
         "diffEditor.removedTextBackground": "#FFFFFF",
         "inputValidation.errorBackground": "#FFFFFF",
-        "inputValidation.errorBorder": "#FFFFFF",
+        "inputValidation.errorBorder": "#ff0000",
         "inputValidation.warningBackground": "#FFFFFF",
         "inputValidation.warningBorder": "#FFFFFF",
         "inputValidation.infoBackground": "#FFFFFF",
@@ -174,7 +174,7 @@
             "scope": "variable",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#FFFFFF"
+                "foreground": "#ba8fff"
             }
         },
         {
@@ -196,7 +196,6 @@
             "name": "Storage type",
             "scope": "storage.type",
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#FFFFFF"
             }
         },
@@ -205,7 +204,7 @@
             "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
             "settings": {
                 "fontStyle": "underline",
-                "foreground": "#FFFFFF"
+                "foreground": "#ba8fff"
             }
         },
         {
@@ -215,7 +214,7 @@
                 "punctuation.separator.namespace.ruby"
             ],
             "settings": {
-                "fontStyle": "italic underline",
+                "fontStyle": "underline",
                 "foreground": "#FFFFFF"
             }
         },
@@ -223,24 +222,21 @@
             "name": "Function name",
             "scope": "entity.name.function",
             "settings": {
-                "fontStyle": "",
-                "foreground": "#FFFFFF"
+                "foreground": "#ba8fff"
             }
         },
         {
             "name": "Function argument",
             "scope": "variable.parameter",
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#FFFFFF"
+                "foreground": "#8fb9ff"
             }
         },
         {
             "name": "Tag name",
             "scope": "entity.name.tag",
             "settings": {
-                "fontStyle": "",
-                "foreground": "#FFFFFF"
+                "foreground": "#ba8fff"
             }
         },
         {
@@ -271,7 +267,6 @@
             "name": "Library class/type",
             "scope": "support.type, support.class",
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#FFFFFF"
             }
         },
@@ -279,7 +274,7 @@
             "name": "Library variable",
             "scope": "support.other.variable",
             "settings": {
-                "fontStyle": ""
+                "fontStyle": "",
             }
         },
         {
@@ -360,7 +355,7 @@
         },
         {
             "name": "Markup Styling",
-            "scope": "markup.bold, markup.italic",
+            "scope": "markup.bold",
             "settings": {
                 "foreground": "#FFFFFF"
             }
@@ -399,7 +394,6 @@
             "name": "Markdown Quote",
             "scope": "markup.quote.markdown",
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#FFFFFF"
             }
         },
