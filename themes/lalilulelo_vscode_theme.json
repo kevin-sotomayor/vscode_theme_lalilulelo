@@ -4,14 +4,14 @@
     "colors": {
         "dropdown.background": "#ffffff",
         "list.activeSelectionBackground": "#00354a",
-        "quickInputList.focusBackground": "#FFFFFF",
-        "dropdown.listBackground": "#FFFFFF",
+        "quickInputList.focusBackground": "#00354a",
+        "dropdown.listBackground": "#ff0000",
         "list.inactiveSelectionBackground": "#00354a",
-        "list.hoverBackground": "#FFFFFF",
-        "list.dropBackground": "#FFFFFF",
+        "list.hoverBackground": "#330041",
+        "list.dropBackground": "#ff0000",
         "list.highlightForeground": "#00354a",
         "button.background": "#330041",
-        "editor.background": "#101010",
+        "editor.background": "#090909",
         "editor.foreground": "#FFFFFF",
         "selection.background": "#00354a",
         "editor.selectionHighlightBackground": "#00354a",
@@ -174,7 +174,7 @@
             "scope": "variable",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#ba8fff"
+                "foreground": "#8fcdff"
             }
         },
         {
@@ -203,8 +203,7 @@
             "name": "Class name",
             "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
             "settings": {
-                "fontStyle": "underline",
-                "foreground": "#ba8fff"
+                "foreground": "#8fcdff"
             }
         },
         {
@@ -222,21 +221,21 @@
             "name": "Function name",
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#ba8fff"
+                "foreground": "#8fcdff"
             }
         },
         {
             "name": "Function argument",
             "scope": "variable.parameter",
             "settings": {
-                "foreground": "#8fb9ff"
+                "foreground": "#90ffb7"
             }
         },
         {
             "name": "Tag name",
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "#ba8fff"
+                "foreground": "#9490ff"
             }
         },
         {
@@ -274,7 +273,6 @@
             "name": "Library variable",
             "scope": "support.other.variable",
             "settings": {
-                "fontStyle": "",
             }
         },
         {
@@ -479,5 +477,5 @@
             }
         }
     ],
-    "semanticHighlighting": true
+    "semanticHighlighting": false
 }
